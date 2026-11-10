@@ -148,3 +148,7 @@ See the [Releases](https://github.com/RiadDeveloper/PyRunner/releases) page for 
 Developed by **Riad Developer**.
 
 Built with [Flutter](https://flutter.dev) and [Chaquopy](https://chaquo.com/chaquopy/) (MIT-licensed since v12).
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
