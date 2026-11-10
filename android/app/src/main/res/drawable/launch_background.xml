@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launch splash (v1.0.5): plain dark background ONLY — no image, no icon.
+     The user asked for no icon flash at startup; the app opens straight
+     into the animated Flutter splash, which uses the same #0E1013, so the
+     transition is seamless. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/launch_background" />
+</layer-list>

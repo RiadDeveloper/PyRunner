@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fully transparent drawable (v1.0.5): used as the Android 12+ system
+     splash icon so the OS never draws the app icon at startup. -->
+<color xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@android:color/transparent" />

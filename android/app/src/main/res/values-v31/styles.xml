@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ system splash (v1.0.5): the OS draws its own splash
+         before Flutter starts. The user asked for NO app icon at startup,
+         so the animated icon is transparent and every background is the
+         same dark #0E1013 as the Flutter splash — the app opens straight
+         into the animation with no icon flash on any Android version.
+         NormalTheme falls back to res/values/styles.xml. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowSplashScreenBackground">@color/launch_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/transparent</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/launch_background</item>
+        <item name="android:windowSplashScreenAnimationDuration">0</item>
+        <item name="android:windowBackground">@color/launch_background</item>
+    </style>
+</resources>
